@@ -1,0 +1,292 @@
+/*-- scss:defaults --*/
+
+$gris-bleu: #2faedd;
+$small-text: 0.6em;
+$heading-sans-serif: "Linux Biolinum";
+
+
+// ------- fonts ---------
+
+@font-face {
+  font-family: "Linux Biolinum";
+  src: 
+    url("/fonts/LinBiolinum_R.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// $font-family-sans-serif: "Linux Biolinum", sans-serif;
+
+// spinner
+
+// this spinner is from https://codepen.io/mrrocks/pen/ExLovj
+
+$offset: 187;
+$duration: 1.4s;
+
+@keyframes rotator {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(270deg); }
+}
+
+@keyframes colors {
+	0% { stroke: #4285F4; }
+	25% { stroke: #DE3E35; }
+	50% { stroke: #F7C223; }
+	75% { stroke: #1B9A59; }
+  100% { stroke: #4285F4; }
+}
+
+@keyframes dash {
+ 0% { stroke-dashoffset: $offset; }
+ 50% {
+   stroke-dashoffset: $offset/4;
+   transform:rotate(135deg);
+ }
+ 100% {
+   stroke-dashoffset: $offset;
+   transform:rotate(450deg);
+ }
+}
+
+/*-- scss:rules --*/
+
+// Mixins
+
+// Mixin for quotation marks
+@mixin quote-marks($color) {
+  &::before {
+    content: "❝";
+    font-size: 2em;
+    color: $color;
+    position: absolute;
+    top: -5px;
+    left: 10px;
+  }
+
+  &::after {
+    content: "❞";
+    font-size: 2em;
+    color: $color;
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+  }
+}
+
+// Options de mise en page du texte
+
+// .reveal body, html, p {
+//   font-family: Biolinum;
+// }
+
+// overwrite
+
+.reveal h1, .reveal h2 {
+  font-family: $heading-sans-serif
+}
+
+// custom classes
+
+.textcenter {
+  text-align: center;
+}
+
+.textright {
+  text-align: right;
+}
+
+.justify {
+  text-align: initial;
+  padding-right: 5%;
+}
+
+.big-text {
+  font-size: 1.5em;
+}
+
+.smaller {
+  font-size: 0.8em;
+}
+
+iframe {
+  margin-top: -2em;
+}
+
+// Tabs
+
+/* marge à gauche utile si fullscreen */
+
+.panel-tabset {
+  margin-left: 1.5em;
+}
+
+// Citations
+
+.citation {
+  position: relative;
+  padding: 0.5em 1.5em;
+  margin: 4vh 0; /* = 4% de la hauteur de la viewport, la slide en l'occurrence */
+  background: #f9f9f9;
+  border-left: 4px solid $gris-bleu;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(135, 143, 149, 0.92);
+
+  // Apply the quotation marks mixin
+  @include quote-marks($gris-bleu);
+
+  // Optional: add fragment transitions for Reveal.js
+  &.fragment {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.4s ease-out;
+
+    &.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+// mise en valeur du texte
+
+.mval {
+  position: relative;
+  padding: 1em 1.5em;
+  margin: 4vh 0; /* = 4% de la hauteur de la viewport, la slide en l'occurrence */
+  background: #f9f9f9;
+  border-left: 4px solid $gris-bleu;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(135, 143, 149, 0.92);
+  box-sizing: border-box;
+
+}
+
+.mval_title {
+  position: relative;
+  display: inline-block;
+  padding: 1em 1.5em;
+  margin: 4vh 0; /* = 4% de la hauteur de la viewport, la slide en l'occurrence */
+  background: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 4px 4px 8px rgba(135, 143, 149, 0.92);
+  text-align: center;
+  font-family: "Harrington";
+
+}
+
+// colonnes
+
+.columns.stretch {
+  align-items: stretch;
+}
+
+// effets de traduction ou de remplacement poste pour poste
+
+.translation {
+  position: relative;
+  padding: 0.5em 0;;
+  display: grid; /*Grid automatically sets the container height to the tallest child */
+}
+.translation > * {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  grid-area: 1 / 1;   /* stack all children */
+}
+
+// flèches
+
+/* Container to position arrow relative to the slide */
+.arrow-layer {
+  position: relative;
+}
+
+/* Base arrow style */
+.slide-arrow {
+  position: absolute;  /* JS can override if needed */
+  font-size: 3rem;
+  color: #ffcc00;
+  pointer-events: none;
+}
+
+/* Reveal fragment visibility */
+.fragment.visible.slide-arrow {
+  opacity: 1;
+}
+
+// marges pour colonnes en fullscreen
+
+.indented {
+  padding-inline-start: 1ch;
+  box-sizing: border-box;
+}
+
+// semi fullscreen
+
+.semi {
+  height: 95vh;
+  padding-left: 1rem;
+  width: 95vw !important;
+}
+
+// tables
+
+.reveal .custom-table {
+  max-width: 100%;
+  max-height: 80vh;       /* vertical scroll threshold */
+  overflow: auto;         /* enables both X and Y scrolling */
+  // margin-top: 0.5rem;
+  // border: 1px solid #ddd;
+  // padding: 4px;
+}
+
+/* Table styling */
+.reveal .custom-table table {
+  border-collapse: collapse;
+  width: max-content;   /* natural width */
+  font-size: $small-text;  /* adjustable font size */
+  cursor: default;
+}
+
+/* Cells */
+.reveal .custom-table th,
+.reveal .custom-table td {
+  border: 1px solid #ccc;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
+
+/* Make headers appear clickable for sorting */
+// .reveal .custom-table th {
+//   background: #f7f7f7;
+//   cursor: pointer;
+//   position: sticky;
+//   top: 0;
+//   z-index: 2;
+// }
+
+/* Style for sorted column */
+// .reveal .custom-table th.sorted-asc::after {
+//   content: " ▲";
+// }
+// .reveal .custom-table th.sorted-desc::after {
+//   content: " ▼";
+// }
+
+// spinner
+
+.spinner {
+  animation: rotator $duration linear infinite;
+}
+
+.path {
+  stroke-dasharray: $offset;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  animation:
+    dash $duration ease-in-out infinite, 
+    colors ($duration*4) ease-in-out infinite;
+}
+

@@ -16,7 +16,7 @@ format:
       data-background-size: contain
       data-background-opacity: "0.5"
     incremental: true
-    theme: [default, ms_utils/utils.scss]
+    theme: [default, utils.scss]
     revealjs-plugins:
       - ms_utils/plugins/fullscreen
         #logo: 
@@ -33,8 +33,8 @@ format:
     slide-number: true
     show-slide-number: print
     show-notes: false
-    resources: 
-      - fonts/LinBiolinum_R.woff2
+    # resources: 
+    #   - fonts/LinBiolinum_R.woff2
 execute: 
   cache: true
 ---
@@ -155,7 +155,7 @@ Je suis un grand lecteur de pdf et ne lis jamais les articles sur les sites néa
 
 ::: {.citation .smaller}
 
-Concernant les enjeux de lecture, pour moi la revue la plus agréable à lire en version papier est Actes de la recherche en sciences sociales, avec une iconographie très riche et un très grand confort de lecture. Pour le reste, la lecture des versions électronique se vaut pour les revues, à l'exception du fait qu'il y a deux plateformes électroniques : Cairn et Openedition. Pour ma part, je préfère largement Openedition, que je trouve beaucoup plus maniable que Cairn.
+Concernant les enjeux de lecture, pour moi la revue la plus agréable à lire en version papier est *Actes de la recherche en sciences sociales*, avec une iconographie très riche et un très grand confort de lecture. Pour le reste, la lecture des versions électronique se vaut pour les revues, à l'exception du fait qu'il y a deux plateformes électroniques : Cairn et Openedition. Pour ma part, je préfère largement Openedition, que je trouve beaucoup plus maniable que Cairn.
 
 :::
 
