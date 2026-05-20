@@ -1,0 +1,236 @@
+---
+title: "IN-CON-TOUR-NABLES"
+subtitle: "Synthèse des réponses du CS et typologie des revues"
+author: "PIEL - Pôle d'Ingénierie éditoriale - Presses de Paris-Saclay"
+date: last-modified
+date-format: "DD/MM/YYYY"
+format: 
+  revealjs: 
+    # apparence -->
+    # center-title-slide: true
+    center: true
+    title-slide-attributes:
+            #data-background-image: 
+            #data-background-color: 
+      data-fullscreen: false
+      data-background-size: contain
+      data-background-opacity: "0.5"
+    incremental: true
+    theme: [default, ms_utils/utils.scss]
+    revealjs-plugins:
+      - ms_utils/plugins/fullscreen
+        #logo: 
+        # footer: 
+    # navigation options -->
+    preview-links: auto
+    link-external-newwindow: true
+    controls: true
+    scrollable: true
+    controls-layout: bottom-right
+    # chalkboard: true # won't work with embed-ressources set to true
+    # embed-resources: true # disable until ready to publish
+    # ----- options pdf ------>
+    slide-number: true
+    show-slide-number: print
+    show-notes: false
+    resources: 
+      - fonts/LinBiolinum_R.woff2
+execute: 
+  cache: true
+---
+
+# Requête originelle {.nonincremental}
+
+- Quelles sont les 2 ou 3 revues scientifiques incontournables dans votre discipline (indépendemment de l'impact factor) ?
+
+- En dehors de l'intérêt scientifique des contenus, avez-vous des revues que vous appréciez particulièrement au niveau du confort de lecture, des fonctionnalités proposées autour des textes mêmes des articles ?
+
+# Synthèse
+
+## Revues citées {data-fullscreen="true"}
+
+::: {.custom-table}
+
+|Discipline |GS   |Revues   | Editeur et URL   | 
+|--|-|--------|-------|
+|Biochimie    | Biosphera  | *Nature medicine*   | [Springer Nature](https://www.nature.com/nm/)   | 
+|Biochimie    | Biosphera  | *Proceedings of the national academy of sciences*   | [PNAS](https://www.pnas.org/toc/pnas/123/19) | 
+|Biochimie    | Biosphera  | *Arteriosclerosis thrombosis and vacular biology*    | [atvb](https://www.ahajournals.org/journal/atvb)   | 
+|Biochimie    | Biosphera  | *Journal of lipid research*   |[jlr.org](https://www.jlr.org/) ou chez [Elsevier](https://www.sciencedirect.com/journal/journal-of-lipid-research)   | 
+|Développement logiciel | ISN + SIS | *Elemental Microscopy* | [Site web](https://www.elementalmicroscopy.org/) créé via le CMS [Curvenote](https://curvenote.com/)
+|Développement logiciel | ISN + SIS | *Journal of Digital History* | [Site web](https://journalofdigitalhistory.org) en co-éd. De Gruyter + University of Luxembourg
+|Développement logiciel | ISN + SIS | *MetaROR (MetaResearch Open Review)* | Sous [Wordpress](https://metaror.org/) -> modèle Publish-Review-Curate
+|Economie | Géosciences | *The Review of Economic Studies*  | [OUP](https://academic.oup.com/restud)
+|Economie | Géosciences |  *Journal of Political Economy* | [UChicago](https://www.journals.uchicago.edu/toc/jpe/current)
+|Economie | Géosciences | *Ecological Economics* | [Elsevier](https://www.sciencedirect.com/journal/ecological-economics)
+|Economie | Géosciences | *She Ji:The Journal of Design, Economics, and Innovation*| [Elsevier](https://www.sciencedirect.com/journal/she-ji-the-journal-of-design-economics-and-innovation)
+|Economie | Géosciences | *World Development*  | [Elsevier](https://www.sciencedirect.com/journal/world-development)
+|Economie | Géosciences | *Revue économique* | [CAIRN](https://shs.cairn.info/revue-economique?lang=fr) ou [JSTOR en PDF](https://www.jstor.org/journal/revueeconomique)
+|Economie | Géosciences | *Global Africa* | Sous [Wordpress](https://www.globalafricasciences.org/)
+|Ethique et épistémologie   | Divers  | *Science and Engineering Ethics*   | [Springer](https://link.springer.com/journal/11948)   |   
+|Ethique et épistémologie   | Divers  | *Ethics*   | [UChicago](https://www.journals.uchicago.edu/toc/et/current)  | 
+|Ethique et épistémologie   | Divers  | *Revue d’anthropologie des connaissances*   | [OpenEdition](https://journals.openedition.org/rac/)  | 
+|Ethique et épistémologie  | Divers  | *Journal international de bioéthique et d’éthique des sciences*   | [CAIRN](https://stm.cairn.info/revue-journal-international-de-bioethique-et-d-ethique-des-sciences?lang=fr)  | 
+|Histoire | HSP | *Past & Present* | [OUP](https://academic.oup.com/past/issue)
+|Histoire | HSP | *Quaderni storici* | [Riviste web](https://www.rivisteweb.it/issn/0301-6307/issue/9667)
+|Histoire | HSP | *Annales Histoire Sciences sociales* | [CAIRN](https://shs.cairn.info/revue-annales?lang=fr) ou [CUP (bilingue)](https://www.cambridge.org/core/journals/annales-histoire-sciences-sociales)
+|Physique   | Physique   | *Physical Review Letters*  | [APS Journals](https://journals.aps.org/prl/)  | 
+|Physique   | Physique   | *Nature Physics*  | [Nature](https://www.nature.com/nphys/)  | 
+|Physique   | Physique  | *Journal of Plasma Physics*  | [CUP](https://www.cambridge.org/core/journals/journal-of-plasma-physics)  | 
+|Physique  |Physique   | *Proceedings of the Royal Society B* (Biological sciences)   | [Royal Society](https://royalsocietypublishing.org/rspb)   | 
+|Sciences politiques | S&SP | *Politix* | [CAIRN](https://shs.cairn.info/revue-politix?lang=fr)
+|Sciences politiques | S&SP | *Revue française de science politique* | [CAIRN](https://shs.cairn.info/revue-francaise-de-science-politique?lang=fr)
+|Sociologie | S&SP | *Revue française de sociologie* | [CAIRN](https://shs.cairn.info/revue-francaise-de-sociologie?lang=fr)
+|Sociologie | S&SP | *Sociétés contemporaines* | [CAIRN](https://shs.cairn.info/revue-societes-contemporaines?lang=fr)
+|Sociologie | S&SP | *Actes de la recherche en sciences sociales* | [CAIRN](https://shs.cairn.info/revue-actes-de-la-recherche-en-sciences-sociales?lang=fr)
+|Sociologie | S&SP | *Genèses* | [CAIRN](https://shs.cairn.info/revue-geneses?lang=fr)
+|SIC | HSP + éducation | *Culture & Musées* | [OpenEdition](https://journals.openedition.org/culturemusees/)
+|SIC | HSP | *Communication & langages* | [CAIRN](https://shs.cairn.info/revue-communication-et-langages)
+|SIC | HSP | *La Lettre de l'OCIM* | [OpenEdition](https://journals.openedition.org/ocim/)
+
+:::
+
+# Verbatims
+
+##
+
+::: {.citation .smaller .nonincremental}
+
+J’apprécie particulièrement la *Revue d’anthropologie des connaissances* pour :
+
+- la clarté générale du site ;
+- la richesse du sommaire : double index (dont foison de mots-clés), appels à contribution (en cours ET clos), précision des informations sur la revue (projet éditorial, comités, informations aux auteurs dont délai moyen entre soumission et publication ET aux relecteurs indiquant les critères d’évaluation des articles), recensions d’ouvrages ;
+- le confort de lecture des articles (plan détaillé, sous titres en couleur);
+- la politique de publication (libre accès).
+
+:::
+
+## 
+
+::: {.citation .smaller}
+
+L’ensemble des revues de Physique de Cambridge University Press comme *Journal of Plasma Physics* ainsi que les *Proceedings of the Royal Society* sont reconnus par nombre de physiciens comme présentant la typographie et le format le plus agréable à la lecture et une qualité des fonctionnalités de citations et références supérieure à bien des revues.
+
+:::
+
+## 
+
+::: {.citation .smaller}
+
+Les revues en économie ont un format assez classique...une revue avec un format plus original : *She Ji: The Journal of Design, Economics, and Innovation*
+
+:::
+
+## 
+
+::: {.citation .smaller}
+
+[Le] format de lecture en ligne de Cambridge University Press est agréable. Je préfère cependant le format de Cairn, qui permet d'afficher les notes de bas de page sur le côté. 
+
+:::
+
+::: {.citation .smaller}
+
+Ce n'est pas une revue mais un dictionnaire encyclopédique en ligne, je vous le partage car je trouve très pratique la façon dont il est organisé, et il fait également référence : https://publictionnaire.huma-num.fr/ 
+
+:::
+
+## 
+
+::: {.citation .smaller}
+
+Une revue que j’apprécie particulièrement est *Global Africa*. Il s’agit d’une revue récente qui vise à promouvoir la recherche africaine, en partenariat avec des institutions comme l’IRD. Elle propose notamment des publications multilingues (anglais, français, swahili, wolof, par exemple), ce qui constitue une initiative très intéressante pour élargir l’accès aux savoirs et aux communautés scientifiques, dans des contextes marqués par de fortes disparités d'accès à ces savoirs. 
+
+:::
+
+##
+
+::: {.citation .smaller}
+
+Je suis un grand lecteur de pdf et ne lis jamais les articles sur les sites néanmoins la lecture est tout à fait faisable / fonctionnel sur la plupart des sites comme *Nature* / *PNAS* ou encore *Science*.
+
+:::
+
+##
+
+::: {.citation .smaller}
+
+Concernant les enjeux de lecture, pour moi la revue la plus agréable à lire en version papier est Actes de la recherche en sciences sociales, avec une iconographie très riche et un très grand confort de lecture. Pour le reste, la lecture des versions électronique se vaut pour les revues, à l'exception du fait qu'il y a deux plateformes électroniques : Cairn et Openedition. Pour ma part, je préfère largement Openedition, que je trouve beaucoup plus maniable que Cairn.
+
+:::
+
+# FOCUS
+
+1. Grands éditeurs et diffuseurs
+
+## Springer - Nature  {data-fullscreen="true" .semi}
+
+![](img/nature_header.png)
+
+## Corps du texte 
+
+![](img/nature_body.png)
+
+## Images, figures
+
+![](img/nature_figure.png)
+
+## Elsevier - Science Direct {data-fullscreen="true" .semi}
+
+![](img/elsevier_header.png)
+
+## Autre version de la *landing page*
+
+![](img/elsevier_header_alt.png)
+
+## Corps du texte
+
+![](img/elesevier_body.png)
+
+## Images, figures
+
+![](img/elesevier_figure.png)
+
+## CAIRN  {data-fullscreen="true" .semi}
+
+![](img/cairn_header.png)
+
+## Corps du texte
+
+![](img/cairn_body.png)
+
+## Images, figures
+
+![](img/cairn_figure.png)
+
+## OpenEdition  {data-fullscreen="true" .semi}
+
+![](img/oe_header.png)
+
+## Corps du texte
+
+![](img/oe_body.png)
+
+## Images, figures
+
+![](img/oe_figure.png)
+
+# FOCUS
+
+2. Editeurs de taille moyenne
+
+# FOCUS
+
+3. Indépendants
+
+## Journal of Digital History ([source](https://doi.org/10.1515/JDH-2023-0010?locatt=label:JDHFULL)) {data-fullscreen="true" .semi}
+
+![](img/jhd_header.png)
+
+## Corps du texte
+
+![](img/jhd_body.png)
+
+## Suppléments
+
+![](img/jhd_suppl.png)
