@@ -4,3 +4,4 @@
 /ms_utils/
 *.[pdf]
 **/*.quarto_ipynb
+font_b64.txt
