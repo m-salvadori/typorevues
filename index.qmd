@@ -1,7 +1,7 @@
 ---
-title: "IN-CON-TOUR-NABLES"
+title: "Revues de référence"
 subtitle: "Synthèse des réponses du Conseil Scientifique et typologie des revues"
-author: "PIEL - Pôle d'Ingénierie éditoriale - Presses de Paris-Saclay"
+author: "Pôle d'Ingénierie éditoriale - Presses de Paris-Saclay"
 date: last-modified
 date-format: "DD/MM/YYYY"
 format: 
@@ -39,6 +39,26 @@ execute:
   cache: true
 ---
 
+# Plan
+
+[01 | Rappel des questions posées](#rappel-des-questions)
+
+[02 | Revues citées](#revues-citées)
+
+[03 | Verbatims](#verbatims)
+
+[04 | Focus : "grands" éditeurs et diffuseurs](#focus)
+
+[05 | Focus : éditeurs de taille moyenne](#focus-1)
+
+[06 | Focus : éditeurs indépendants](#focus-2)
+
+[07 | Synthèse](#bilan)
+
+[08 | Aux POPS : préfiguration](#todo)
+
+
+
 # Rappel des questions {.nonincremental}
 
 - Quelles sont les 2 ou 3 revues scientifiques incontournables dans votre discipline (indépendamment de l'impact factor) ?
@@ -47,7 +67,7 @@ execute:
 
 # Synthèse des réponses
 
-## Revues citées {data-fullscreen="true"}
+## Revues citées 
 
 ::: {.custom-table}
 
@@ -100,7 +120,7 @@ J’apprécie particulièrement la *Revue d’anthropologie des connaissances* p
 
 - la clarté générale du site ;
 - la richesse du sommaire : double index (dont foison de mots-clés), appels à contribution (en cours ET clos), précision des informations sur la revue (projet éditorial, comités, informations aux auteurs dont délai moyen entre soumission et publication ET aux relecteurs indiquant les critères d’évaluation des articles), recensions d’ouvrages ;
-- le confort de lecture des articles (plan détaillé, sous titres en couleur) ;
+- le confort de lecture des articles (plan détaillé, sous titres en couleur);
 - la politique de publication (libre accès).
 
 :::
@@ -291,7 +311,13 @@ Pour le reste, la lecture des versions électronique se vaut pour les revues, à
 
 ## {.smaller}
 
-- Formats d'entrée fournis par les auteurs : probablement Word (.docx) ou LaTeX (.tex) dans la plupart des cas, Markdown (.md) ou Jupyter (.ipynb) à la marge
+- Formats d'entrée fournis par les auteurs : probablement Word (.docx) ou LaTeX (.tex) dans la plupart des cas, Markdown (.md) et/ou Jupyter (.ipynb) à la marge
 - Liens données/publications : données disponibles comme *supplementary materials* dans la plupart des cas, ou accessibles
 sur une base externe via un DOI ; marginalement, intégrées au corps du texte de manière plus ou moins interactive 
 - Formats de sortie souvent restreints à HTML (après conversion d'une source XML) et PDF ; éventuellement, accès aux sources .tex, .md ou .ipynb
+
+# Aux POPS : préfiguration
+
+## {data-fullscreen="true"}
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Les principes FAIR" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://ojs.ptl.ovh/index.php/ojs_Camb_popps/article/view/132" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
