@@ -55,7 +55,7 @@ execute:
 
 [07 | Synthèse](#bilan)
 
-[08 | Aux POPS : préfiguration](#todo)
+[08 | Aux POPS : préfiguration](#aux-pops-préfiguration)
 
 
 
@@ -320,4 +320,8 @@ sur une base externe via un DOI ; marginalement, intégrées au corps du texte d
 
 ## {data-fullscreen="true"}
 
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Les principes FAIR" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://ojs.ptl.ovh/index.php/ojs_Camb_popps/article/view/132" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Les principes FAIR" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 80px; left: 0; width: 100%; height: 100%;" src="https://ojs.ptl.ovh/index.php/ojs_Camb_popps/article/view/132" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+## {data-fullscreen="true"}
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="Les principes FAIR" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 80px; left: 0; width: 100%; height: 100%;" src="https://ojs.ptl.ovh/index.php/f3/article/view/208" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
